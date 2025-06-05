@@ -1,0 +1,19 @@
+{
+  "name": "vpn-app",
+  "version": "1.0.0",
+  "description": "VPN Application with Web Interface",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js --web-only",
+    "dev": "node index.js",
+    "build": "cd frontend && npm run build",
+    "setup": "node index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.3"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
